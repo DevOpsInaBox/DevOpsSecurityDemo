@@ -32,7 +32,7 @@ public class ProductController {
         private ProductService productService;
         
 
-	@ApiOperation(value = "Get all the products reated to xyz")        
+	@ApiOperation(value = "Get all the products reated")        
 	@RequestMapping(value = "/product", method = RequestMethod.GET, produces = { "application/json",
 			"application/xml" })
 	public List<Product> getAllProducts() {
