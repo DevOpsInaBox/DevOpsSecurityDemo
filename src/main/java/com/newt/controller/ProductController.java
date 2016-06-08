@@ -28,10 +28,10 @@ public class ProductController {
 
 	//@Autowired
 	@Autowired
-        private ProductService  productService;
+        private ProductService productService;
         
 
-	@ApiOperation(value = "Get all the products")
+	@ApiOperation(value = "Get all the products")        
 	@RequestMapping(value = "/product", method = RequestMethod.GET, produces = { "application/json",
 			"application/xml" })
 	public List<Product> getAllProducts() {
