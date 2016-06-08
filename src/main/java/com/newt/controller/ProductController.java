@@ -27,7 +27,8 @@ public class ProductController {
 	private static Logger log = LoggerFactory.getLogger(ProductController.class);
 
 	@Autowired
-	private ProductService productService;
+	//private ProductService productService;
+        private ProductService productService;
 
 	@ApiOperation(value = "Get all the products")
 	@RequestMapping(value = "/product", method = RequestMethod.GET, produces = { "application/json",
