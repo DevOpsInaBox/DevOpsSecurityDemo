@@ -1,4 +1,5 @@
 FROM java:8
+
 ENV JAR SampleProducts-0.0.1-SNAPSHOT.jar
 ENV MAIN_CLASS com.newt.SampleProductsApplication
 
